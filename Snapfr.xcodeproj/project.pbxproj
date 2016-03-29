@@ -1,0 +1,1292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000C04A91BA96C030068DF5E /* EditAvatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000C04A81BA96C030068DF5E /* EditAvatar.swift */; };
+		001A7D6C1BDA42C7007FF1FE /* BookServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7D6B1BDA42C7007FF1FE /* BookServiceController.swift */; };
+		001A7D8D1BDA84FC007FF1FE /* DSLCalendarDayCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 001A7D6F1BDA84FC007FF1FE /* DSLCalendarDayCalloutView.m */; };
+		001A7D8E1BDA84FC007FF1FE /* DSLCalendarDayCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D701BDA84FC007FF1FE /* DSLCalendarDayCalloutView.xib */; };
+		001A7D8F1BDA84FC007FF1FE /* DSLCalendarDayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 001A7D721BDA84FC007FF1FE /* DSLCalendarDayView.m */; };
+		001A7D901BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 001A7D741BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.m */; };
+		001A7D911BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D751BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.xib */; };
+		001A7D921BDA84FC007FF1FE /* DSLCalendarMonthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 001A7D771BDA84FC007FF1FE /* DSLCalendarMonthView.m */; };
+		001A7D931BDA84FC007FF1FE /* DSLCalendarRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 001A7D791BDA84FC007FF1FE /* DSLCalendarRange.m */; };
+		001A7D941BDA84FC007FF1FE /* DSLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 001A7D7B1BDA84FC007FF1FE /* DSLCalendarView.m */; };
+		001A7D951BDA84FC007FF1FE /* DSLCalendar-nextMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D7D1BDA84FC007FF1FE /* DSLCalendar-nextMonth.png */; };
+		001A7D961BDA84FC007FF1FE /* DSLCalendar-nextMonth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D7E1BDA84FC007FF1FE /* DSLCalendar-nextMonth@2x.png */; };
+		001A7D971BDA84FC007FF1FE /* DSLCalendar-previousMonth.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D7F1BDA84FC007FF1FE /* DSLCalendar-previousMonth.png */; };
+		001A7D981BDA84FC007FF1FE /* DSLCalendar-previousMonth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D801BDA84FC007FF1FE /* DSLCalendar-previousMonth@2x.png */; };
+		001A7D991BDA84FC007FF1FE /* DSLCalendarDayCallout.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D811BDA84FC007FF1FE /* DSLCalendarDayCallout.png */; };
+		001A7D9A1BDA84FC007FF1FE /* DSLCalendarDayCallout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D821BDA84FC007FF1FE /* DSLCalendarDayCallout@2x.png */; };
+		001A7D9B1BDA84FC007FF1FE /* DSLCalendarDaySelection-left.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D831BDA84FC007FF1FE /* DSLCalendarDaySelection-left.png */; };
+		001A7D9C1BDA84FC007FF1FE /* DSLCalendarDaySelection-left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D841BDA84FC007FF1FE /* DSLCalendarDaySelection-left@2x.png */; };
+		001A7D9D1BDA84FC007FF1FE /* DSLCalendarDaySelection-middle.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D851BDA84FC007FF1FE /* DSLCalendarDaySelection-middle.png */; };
+		001A7D9E1BDA84FC007FF1FE /* DSLCalendarDaySelection-middle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D861BDA84FC007FF1FE /* DSLCalendarDaySelection-middle@2x.png */; };
+		001A7D9F1BDA84FC007FF1FE /* DSLCalendarDaySelection-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D871BDA84FC007FF1FE /* DSLCalendarDaySelection-right.png */; };
+		001A7DA01BDA84FC007FF1FE /* DSLCalendarDaySelection-right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D881BDA84FC007FF1FE /* DSLCalendarDaySelection-right@2x.png */; };
+		001A7DA11BDA84FC007FF1FE /* DSLCalendarDaySelection.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D891BDA84FC007FF1FE /* DSLCalendarDaySelection.png */; };
+		001A7DA21BDA84FC007FF1FE /* DSLCalendarDaySelection@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 001A7D8A1BDA84FC007FF1FE /* DSLCalendarDaySelection@2x.png */; };
+		001A7DA31BDA84FC007FF1FE /* NSDate+DSLCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 001A7D8C1BDA84FC007FF1FE /* NSDate+DSLCalendarView.m */; };
+		001A7DA51BDDFB84007FF1FE /* BookingDateSelectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DA41BDDFB84007FF1FE /* BookingDateSelectionController.swift */; };
+		001A7DC21BDE2280007FF1FE /* CVAuxiliaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DA71BDE2280007FF1FE /* CVAuxiliaryView.swift */; };
+		001A7DC31BDE2280007FF1FE /* CVCalendarContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DA81BDE2280007FF1FE /* CVCalendarContentViewController.swift */; };
+		001A7DC41BDE2280007FF1FE /* CVCalendarDayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DA91BDE2280007FF1FE /* CVCalendarDayView.swift */; };
+		001A7DC51BDE2280007FF1FE /* CVCalendarDayViewControlCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DAA1BDE2280007FF1FE /* CVCalendarDayViewControlCoordinator.swift */; };
+		001A7DC61BDE2280007FF1FE /* CVCalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DAB1BDE2280007FF1FE /* CVCalendarManager.swift */; };
+		001A7DC71BDE2280007FF1FE /* CVCalendarMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DAC1BDE2280007FF1FE /* CVCalendarMenuView.swift */; };
+		001A7DC81BDE2280007FF1FE /* CVCalendarMenuViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DAD1BDE2280007FF1FE /* CVCalendarMenuViewDelegate.swift */; };
+		001A7DC91BDE2280007FF1FE /* CVCalendarMonthContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DAE1BDE2280007FF1FE /* CVCalendarMonthContentViewController.swift */; };
+		001A7DCA1BDE2280007FF1FE /* CVCalendarMonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DAF1BDE2280007FF1FE /* CVCalendarMonthView.swift */; };
+		001A7DCB1BDE2280007FF1FE /* CVCalendarTouchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DB01BDE2280007FF1FE /* CVCalendarTouchController.swift */; };
+		001A7DCC1BDE2280007FF1FE /* CVCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DB11BDE2280007FF1FE /* CVCalendarView.swift */; };
+		001A7DCD1BDE2280007FF1FE /* CVCalendarViewAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DB21BDE2280007FF1FE /* CVCalendarViewAnimator.swift */; };
+		001A7DCE1BDE2280007FF1FE /* CVCalendarViewAnimatorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DB31BDE2280007FF1FE /* CVCalendarViewAnimatorDelegate.swift */; };
+		001A7DCF1BDE2280007FF1FE /* CVCalendarViewAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DB41BDE2280007FF1FE /* CVCalendarViewAppearance.swift */; };
+		001A7DD01BDE2280007FF1FE /* CVCalendarViewAppearanceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DB51BDE2280007FF1FE /* CVCalendarViewAppearanceDelegate.swift */; };
+		001A7DD11BDE2280007FF1FE /* CVCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DB61BDE2280007FF1FE /* CVCalendarViewDelegate.swift */; };
+		001A7DD21BDE2280007FF1FE /* CVCalendarViewPresentationMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DB71BDE2280007FF1FE /* CVCalendarViewPresentationMode.swift */; };
+		001A7DD31BDE2280007FF1FE /* CVCalendarWeekContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DB81BDE2280007FF1FE /* CVCalendarWeekContentViewController.swift */; };
+		001A7DD41BDE2280007FF1FE /* CVCalendarWeekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DB91BDE2280007FF1FE /* CVCalendarWeekday.swift */; };
+		001A7DD51BDE2280007FF1FE /* CVCalendarWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DBA1BDE2280007FF1FE /* CVCalendarWeekView.swift */; };
+		001A7DD61BDE2280007FF1FE /* CVDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DBB1BDE2280007FF1FE /* CVDate.swift */; };
+		001A7DD71BDE2280007FF1FE /* CVRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DBC1BDE2280007FF1FE /* CVRange.swift */; };
+		001A7DD81BDE2280007FF1FE /* CVScrollDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DBD1BDE2280007FF1FE /* CVScrollDirection.swift */; };
+		001A7DD91BDE2280007FF1FE /* CVSelectionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DBE1BDE2280007FF1FE /* CVSelectionType.swift */; };
+		001A7DDA1BDE2280007FF1FE /* CVSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DBF1BDE2280007FF1FE /* CVSet.swift */; };
+		001A7DDB1BDE2280007FF1FE /* CVShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DC01BDE2280007FF1FE /* CVShape.swift */; };
+		001A7DDC1BDE2280007FF1FE /* CVWeekdaySymbolType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DC11BDE2280007FF1FE /* CVWeekdaySymbolType.swift */; };
+		001A7DDE1BDE736E007FF1FE /* BookingTimeSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001A7DDD1BDE736E007FF1FE /* BookingTimeSelectorController.swift */; };
+		001B339D1BF1D9F500D0CCE0 /* PendingBookingRequestListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001B339C1BF1D9F500D0CCE0 /* PendingBookingRequestListController.swift */; };
+		001B339F1BF1FF3000D0CCE0 /* ViewPendingCustomerRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001B339E1BF1FF3000D0CCE0 /* ViewPendingCustomerRequestController.swift */; };
+		001B33A11BF214E400D0CCE0 /* RejectBookingRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001B33A01BF214E400D0CCE0 /* RejectBookingRequestController.swift */; };
+		00293F681C4D1E26004CD4CA /* BookingDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00293F671C4D1E26004CD4CA /* BookingDao.swift */; };
+		00293F6A1C4D1E34004CD4CA /* IBookingDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00293F691C4D1E34004CD4CA /* IBookingDao.swift */; };
+		0035E83D1C493579002752BD /* ServiceDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E83C1C493579002752BD /* ServiceDao.swift */; };
+		0035E83F1C49358D002752BD /* IServiceDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E83E1C49358D002752BD /* IServiceDao.swift */; };
+		0035E8411C49366B002752BD /* ServiceGroupDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E8401C49366B002752BD /* ServiceGroupDao.swift */; };
+		0035E8431C49367B002752BD /* IServiceGroupDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E8421C49367B002752BD /* IServiceGroupDao.swift */; };
+		0035E8451C4A6CA3002752BD /* IServiceImageDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E8441C4A6CA3002752BD /* IServiceImageDao.swift */; };
+		0035E8471C4A6CED002752BD /* ServiceImageDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E8461C4A6CED002752BD /* ServiceImageDao.swift */; };
+		0036A7671B88C7CE001ECD24 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0036A7661B88C7CE001ECD24 /* LoginController.swift */; };
+		003A41F61C3D577B00CB268C /* ResponseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A41F51C3D577B00CB268C /* ResponseMessage.swift */; };
+		003A41FB1C424D4D00CB268C /* UserServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A41FA1C424D4D00CB268C /* UserServiceTests.swift */; };
+		003A42011C42A4B900CB268C /* ProfileForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006813341B8DD6940014A912 /* ProfileForm.swift */; };
+		003A42051C42A55000CB268C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003A42021C42A55000CB268C /* FBSDKShareKit.framework */; };
+		003A42061C42A55000CB268C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003A42031C42A55000CB268C /* FBSDKCoreKit.framework */; };
+		003A42071C42A55000CB268C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 003A42041C42A55000CB268C /* FBSDKLoginKit.framework */; };
+		003A420A1C42A60700CB268C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A78E831B880B660068A542 /* Profile.swift */; };
+		003A420B1C43AFA700CB268C /* BookingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5292F1BF35553007E80D6 /* BookingStatus.swift */; };
+		003A420C1C43AFAB00CB268C /* MessageStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007DA5E41C12B80D0035EEBA /* MessageStatus.swift */; };
+		003A420D1C43AFAE00CB268C /* HttpUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A78E7A1B88098C0068A542 /* HttpUtil.swift */; };
+		003A420E1C43AFB300CB268C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A78E7D1B880A8B0068A542 /* Constants.swift */; };
+		003A420F1C43AFB700CB268C /* ResponseMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A41F51C3D577B00CB268C /* ResponseMessage.swift */; };
+		003A42101C43AFDB00CB268C /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007DA5E21C12B7220035EEBA /* Message.swift */; };
+		003A42111C43AFDF00CB268C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A78E851B880B900068A542 /* User.swift */; };
+		003A42121C43AFE300CB268C /* ServiceGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B21C331BAE9726006A3E99 /* ServiceGroup.swift */; };
+		003A42131C43AFE700CB268C /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8D2001BB6B34900CA3886 /* Service.swift */; };
+		003A42141C43AFEB00CB268C /* ServiceImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8D2021BB7D61800CA3886 /* ServiceImage.swift */; };
+		003A42151C43AFEF00CB268C /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7DE7F1BDF53990090A2C0 /* Booking.swift */; };
+		003A42161C43AFF200CB268C /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00615DCA1C01A40A00A8F281 /* Review.swift */; };
+		003A42171C43B05700CB268C /* ReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00615DC81C01A38200A8F281 /* ReviewService.swift */; };
+		003A42181C43B05B00CB268C /* BookingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7DE7D1BDF52CD0090A2C0 /* BookingService.swift */; };
+		003A42191C43B05E00CB268C /* ServiceGroupServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B21C311BAE96B1006A3E99 /* ServiceGroupServices.swift */; };
+		003A421A1C43B06300CB268C /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A78E7F1B880B060068A542 /* UserService.swift */; };
+		003A421D1C43FA2600CB268C /* ProfileDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A421C1C43FA2600CB268C /* ProfileDao.swift */; };
+		003A421E1C43FA2600CB268C /* ProfileDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A421C1C43FA2600CB268C /* ProfileDao.swift */; };
+		003A42201C43FEDF00CB268C /* IProfileDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A421F1C43FEDF00CB268C /* IProfileDao.swift */; };
+		003A42211C43FEDF00CB268C /* IProfileDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003A421F1C43FEDF00CB268C /* IProfileDao.swift */; };
+		003CA9B11B9AFC7800E7D87D /* login-manual.png in Resources */ = {isa = PBXBuildFile; fileRef = 003CA9B01B9AFC7800E7D87D /* login-manual.png */; };
+		003CA9B31B9B1C5400E7D87D /* SearchPhotographerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003CA9B21B9B1C5400E7D87D /* SearchPhotographerController.swift */; };
+		003CA9B71B9C71C300E7D87D /* ProfileMaintenanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003CA9B61B9C71C300E7D87D /* ProfileMaintenanceController.swift */; };
+		003F5C911BF9FA8300410872 /* MakeReviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003F5C901BF9FA8300410872 /* MakeReviewController.swift */; };
+		003F5C931BF9FB7C00410872 /* star-rating-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 003F5C921BF9FB7C00410872 /* star-rating-icon.png */; };
+		0046EC141C48D38300948F78 /* ResponseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046EC131C48D38300948F78 /* ResponseBuilder.swift */; };
+		0046EC151C48D7E500948F78 /* ResponseBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046EC131C48D38300948F78 /* ResponseBuilder.swift */; };
+		0046EC171C490F5500948F78 /* UserDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046EC161C490F5500948F78 /* UserDao.swift */; };
+		0046EC191C490F6C00948F78 /* IUserDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046EC181C490F6C00948F78 /* IUserDao.swift */; };
+		0046EC1A1C49130900948F78 /* IUserDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046EC181C490F6C00948F78 /* IUserDao.swift */; };
+		0046EC1B1C49130D00948F78 /* UserDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0046EC161C490F5500948F78 /* UserDao.swift */; };
+		00615DC61C0179C500A8F281 /* star_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 00615DC41C0179C500A8F281 /* star_selected.png */; };
+		00615DC71C0179C500A8F281 /* star_none.png in Resources */ = {isa = PBXBuildFile; fileRef = 00615DC51C0179C500A8F281 /* star_none.png */; };
+		00615DC91C01A38200A8F281 /* ReviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00615DC81C01A38200A8F281 /* ReviewService.swift */; };
+		00615DCB1C01A40A00A8F281 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00615DCA1C01A40A00A8F281 /* Review.swift */; };
+		00615DCD1C01F78E00A8F281 /* ViewReviewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00615DCC1C01F78E00A8F281 /* ViewReviewsController.swift */; };
+		006813301B8DD2C20014A912 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0068132F1B8DD2C20014A912 /* SignInController.swift */; };
+		006813321B8DD5BF0014A912 /* SignInOtherInfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006813311B8DD5BF0014A912 /* SignInOtherInfoController.swift */; };
+		006813351B8DD6940014A912 /* ProfileForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006813341B8DD6940014A912 /* ProfileForm.swift */; };
+		0077047D1BC8DF1C007D64F5 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0077047A1BC8DF1C007D64F5 /* FBSDKShareKit.framework */; };
+		0077047E1BC8DF1C007D64F5 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0077047B1BC8DF1C007D64F5 /* FBSDKCoreKit.framework */; };
+		0077047F1BC8DF1C007D64F5 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0077047C1BC8DF1C007D64F5 /* FBSDKLoginKit.framework */; };
+		007704811BC934E8007D64F5 /* DeleteServiceSamplePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007704801BC934E8007D64F5 /* DeleteServiceSamplePhotoController.swift */; };
+		007704831BC95A59007D64F5 /* ModifyServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007704821BC95A59007D64F5 /* ModifyServiceController.swift */; };
+		007704851BC95CDC007D64F5 /* ParentModifyServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007704841BC95CDC007D64F5 /* ParentModifyServiceController.swift */; };
+		007704871BCA2E79007D64F5 /* EditServiceGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007704861BCA2E79007D64F5 /* EditServiceGroupController.swift */; };
+		007704891BCA2F43007D64F5 /* EditParentServiceGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007704881BCA2F43007D64F5 /* EditParentServiceGroupController.swift */; };
+		0077DBCE1C4F7C1C00840AA4 /* IReviewDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077DBCD1C4F7C1C00840AA4 /* IReviewDao.swift */; };
+		0077DBD01C4F7C2F00840AA4 /* ReviewDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077DBCF1C4F7C2F00840AA4 /* ReviewDao.swift */; };
+		0077DBD11C4FA08300840AA4 /* IServiceDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E83E1C49358D002752BD /* IServiceDao.swift */; };
+		0077DBD21C4FA08900840AA4 /* ServiceDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E83C1C493579002752BD /* ServiceDao.swift */; };
+		0077DBD31C4FA09400840AA4 /* ServiceGroupDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E8401C49366B002752BD /* ServiceGroupDao.swift */; };
+		0077DBD41C4FA09800840AA4 /* IServiceGroupDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E8421C49367B002752BD /* IServiceGroupDao.swift */; };
+		0077DBD51C4FA09C00840AA4 /* IServiceImageDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E8441C4A6CA3002752BD /* IServiceImageDao.swift */; };
+		0077DBD61C4FA0A000840AA4 /* ServiceImageDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0035E8461C4A6CED002752BD /* ServiceImageDao.swift */; };
+		0077DBD71C4FA0A300840AA4 /* BookingDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00293F671C4D1E26004CD4CA /* BookingDao.swift */; };
+		0077DBD81C4FA0A700840AA4 /* IBookingDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00293F691C4D1E34004CD4CA /* IBookingDao.swift */; };
+		0077DBD91C4FA0AA00840AA4 /* IReviewDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077DBCD1C4F7C1C00840AA4 /* IReviewDao.swift */; };
+		0077DBDA1C4FA0AE00840AA4 /* ReviewDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077DBCF1C4F7C2F00840AA4 /* ReviewDao.swift */; };
+		0077DBDE1C4FA2F500840AA4 /* ServiceGroupServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077DBDD1C4FA2F500840AA4 /* ServiceGroupServiceTests.swift */; };
+		0077DBE01C4FA6FC00840AA4 /* BookingServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077DBDF1C4FA6FC00840AA4 /* BookingServiceTests.swift */; };
+		0077DBE21C4FBE6700840AA4 /* ReviewServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0077DBE11C4FBE6700840AA4 /* ReviewServiceTests.swift */; };
+		007A611A1BD36F7500EED249 /* ViewProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A61191BD36F7500EED249 /* ViewProfileController.swift */; };
+		007A611C1BD3803200EED249 /* ViewProfileServiceGroupsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A611B1BD3803200EED249 /* ViewProfileServiceGroupsController.swift */; };
+		007A611E1BD3AE7500EED249 /* ViewServicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007A611D1BD3AE7500EED249 /* ViewServicesController.swift */; };
+		007DA5E31C12B7220035EEBA /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007DA5E21C12B7220035EEBA /* Message.swift */; };
+		007DA5E51C12B80D0035EEBA /* MessageStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007DA5E41C12B80D0035EEBA /* MessageStatus.swift */; };
+		007DA5E81C12BF3C0035EEBA /* SendMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007DA5E71C12BF3C0035EEBA /* SendMessageController.swift */; };
+		008B25241BF6E6B5002A6EF0 /* ViewMyPendingRequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B25231BF6E6B5002A6EF0 /* ViewMyPendingRequestController.swift */; };
+		008B25261BF6F5FF002A6EF0 /* CancelBookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B25251BF6F5FF002A6EF0 /* CancelBookingController.swift */; };
+		008B25281BF711A1002A6EF0 /* BookingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B25271BF711A1002A6EF0 /* BookingListController.swift */; };
+		008B252A1BF71DCF002A6EF0 /* ViewMyBookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B25291BF71DCF002A6EF0 /* ViewMyBookingController.swift */; };
+		008B252C1BF71DF3002A6EF0 /* ViewCustomerBookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B252B1BF71DF3002A6EF0 /* ViewCustomerBookingController.swift */; };
+		008B252E1BF8B5DE002A6EF0 /* CancelledBookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B252D1BF8B5DE002A6EF0 /* CancelledBookingController.swift */; };
+		008B25301BF8BC73002A6EF0 /* RejectedBookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B252F1BF8BC73002A6EF0 /* RejectedBookingController.swift */; };
+		008B25321BF8C042002A6EF0 /* CompletedBookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008B25311BF8C042002A6EF0 /* CompletedBookingController.swift */; };
+		0095DF201C534E4300628032 /* CommonUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095DF1F1C534E4300628032 /* CommonUtil.swift */; };
+		0095DF221C537F5100628032 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095DF211C537F5100628032 /* UIImageView.swift */; };
+		0095DF241C5755C200628032 /* ResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095DF231C5755C200628032 /* ResponseStatus.swift */; };
+		0095DF251C576A2B00628032 /* ResponseStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0095DF231C5755C200628032 /* ResponseStatus.swift */; };
+		00A78E7B1B88098C0068A542 /* HttpUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A78E7A1B88098C0068A542 /* HttpUtil.swift */; };
+		00A78E7E1B880A8B0068A542 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A78E7D1B880A8B0068A542 /* Constants.swift */; };
+		00A78E801B880B060068A542 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A78E7F1B880B060068A542 /* UserService.swift */; };
+		00A78E841B880B660068A542 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A78E831B880B660068A542 /* Profile.swift */; };
+		00A78E861B880B900068A542 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A78E851B880B900068A542 /* User.swift */; };
+		00B21C2E1BAE6F10006A3E99 /* ServicesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B21C2D1BAE6F10006A3E99 /* ServicesController.swift */; };
+		00B21C301BAE9268006A3E99 /* AddServiceGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B21C2F1BAE9268006A3E99 /* AddServiceGroupController.swift */; };
+		00B21C321BAE96B1006A3E99 /* ServiceGroupServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B21C311BAE96B1006A3E99 /* ServiceGroupServices.swift */; };
+		00B21C341BAE9726006A3E99 /* ServiceGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B21C331BAE9726006A3E99 /* ServiceGroup.swift */; };
+		00B21C361BAE9793006A3E99 /* ServiceGroupForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B21C351BAE9793006A3E99 /* ServiceGroupForm.swift */; };
+		00B287AA1B7B720100C36CA2 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 00B287A91B7B720100C36CA2 /* login.png */; };
+		00B529301BF35553007E80D6 /* BookingStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B5292F1BF35553007E80D6 /* BookingStatus.swift */; };
+		00B529321BF3592D007E80D6 /* ModifyBookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B529311BF3592D007E80D6 /* ModifyBookingController.swift */; };
+		00B8D1FB1BB6993200CA3886 /* MaintainServiceGroupController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8D1FA1BB6993200CA3886 /* MaintainServiceGroupController.swift */; };
+		00B8D1FD1BB6AC2500CA3886 /* AddServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8D1FC1BB6AC2500CA3886 /* AddServiceController.swift */; };
+		00B8D1FF1BB6AD9800CA3886 /* ServiceForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8D1FE1BB6AD9800CA3886 /* ServiceForm.swift */; };
+		00B8D2011BB6B34900CA3886 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8D2001BB6B34900CA3886 /* Service.swift */; };
+		00B8D2031BB7D61800CA3886 /* ServiceImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B8D2021BB7D61800CA3886 /* ServiceImage.swift */; };
+		00BDFF5C1BA3EAFA0084512F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00BDFF5B1BA3EAFA0084512F /* SWRevealViewController.m */; };
+		00BDFF5F1BA3FAC80084512F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00BDFF5D1BA3FAC80084512F /* Main.storyboard */; };
+		00BDFF611BA475BA0084512F /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BDFF601BA475BA0084512F /* edit.png */; };
+		00BDFF631BA477CE0084512F /* EditProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00BDFF621BA477CE0084512F /* EditProfileController.swift */; };
+		00BDFF651BA53E400084512F /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 00BDFF641BA53E400084512F /* Menu.png */; };
+		00C7DE7E1BDF52CD0090A2C0 /* BookingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7DE7D1BDF52CD0090A2C0 /* BookingService.swift */; };
+		00C7DE801BDF53990090A2C0 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C7DE7F1BDF53990090A2C0 /* Booking.swift */; };
+		00D828781C034CE0002DA036 /* ReviewsCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D828771C034CE0002DA036 /* ReviewsCustomCell.swift */; };
+		00D8287A1C0360D0002DA036 /* star-con-selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D828791C0360D0002DA036 /* star-con-selected.png */; };
+		00DB8B611B7A368400FB8A8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB8B601B7A368400FB8A8C /* AppDelegate.swift */; };
+		00DB8B631B7A368400FB8A8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB8B621B7A368400FB8A8C /* ViewController.swift */; };
+		00DB8B681B7A368400FB8A8C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00DB8B671B7A368400FB8A8C /* Images.xcassets */; };
+		00DB8B6B1B7A368400FB8A8C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00DB8B691B7A368400FB8A8C /* LaunchScreen.xib */; };
+		00DB8B771B7A368400FB8A8C /* SnapfrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DB8B761B7A368400FB8A8C /* SnapfrTests.swift */; };
+		00DB8B811B7A3F9500FB8A8C /* addUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 00DB8B801B7A3F9500FB8A8C /* addUser.png */; };
+		00DB8B831B7A442400FB8A8C /* fbLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 00DB8B821B7A442400FB8A8C /* fbLogin.png */; };
+		00FF66EC1BBFA86500F41850 /* EditServiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF66EB1BBFA86500F41850 /* EditServiceController.swift */; };
+		00FF66EE1BBFB72200F41850 /* EditServiceParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF66ED1BBFB72200F41850 /* EditServiceParentViewController.swift */; };
+		00FF66F21BC006DF00F41850 /* images_blank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00FF66F11BC006DF00F41850 /* images_blank.jpg */; };
+		00FF66F41BC0080C00F41850 /* AddServiceImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF66F31BC0080C00F41850 /* AddServiceImageController.swift */; };
+		00FF66F61BC01E0400F41850 /* ViewServiceSamplePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FF66F51BC01E0400F41850 /* ViewServiceSamplePhotoController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00DB8B711B7A368400FB8A8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 00DB8B531B7A368400FB8A8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00DB8B5A1B7A368400FB8A8C;
+			remoteInfo = Snapfr;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000C04A81BA96C030068DF5E /* EditAvatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditAvatar.swift; sourceTree = "<group>"; };
+		001A7D6B1BDA42C7007FF1FE /* BookServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookServiceController.swift; sourceTree = "<group>"; };
+		001A7D6E1BDA84FC007FF1FE /* DSLCalendarDayCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarDayCalloutView.h; sourceTree = "<group>"; };
+		001A7D6F1BDA84FC007FF1FE /* DSLCalendarDayCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarDayCalloutView.m; sourceTree = "<group>"; };
+		001A7D701BDA84FC007FF1FE /* DSLCalendarDayCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSLCalendarDayCalloutView.xib; sourceTree = "<group>"; };
+		001A7D711BDA84FC007FF1FE /* DSLCalendarDayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarDayView.h; sourceTree = "<group>"; };
+		001A7D721BDA84FC007FF1FE /* DSLCalendarDayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarDayView.m; sourceTree = "<group>"; };
+		001A7D731BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarMonthSelectorView.h; sourceTree = "<group>"; };
+		001A7D741BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarMonthSelectorView.m; sourceTree = "<group>"; };
+		001A7D751BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DSLCalendarMonthSelectorView.xib; sourceTree = "<group>"; };
+		001A7D761BDA84FC007FF1FE /* DSLCalendarMonthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarMonthView.h; sourceTree = "<group>"; };
+		001A7D771BDA84FC007FF1FE /* DSLCalendarMonthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarMonthView.m; sourceTree = "<group>"; };
+		001A7D781BDA84FC007FF1FE /* DSLCalendarRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarRange.h; sourceTree = "<group>"; };
+		001A7D791BDA84FC007FF1FE /* DSLCalendarRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarRange.m; sourceTree = "<group>"; };
+		001A7D7A1BDA84FC007FF1FE /* DSLCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLCalendarView.h; sourceTree = "<group>"; };
+		001A7D7B1BDA84FC007FF1FE /* DSLCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLCalendarView.m; sourceTree = "<group>"; };
+		001A7D7D1BDA84FC007FF1FE /* DSLCalendar-nextMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendar-nextMonth.png"; sourceTree = "<group>"; };
+		001A7D7E1BDA84FC007FF1FE /* DSLCalendar-nextMonth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendar-nextMonth@2x.png"; sourceTree = "<group>"; };
+		001A7D7F1BDA84FC007FF1FE /* DSLCalendar-previousMonth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendar-previousMonth.png"; sourceTree = "<group>"; };
+		001A7D801BDA84FC007FF1FE /* DSLCalendar-previousMonth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendar-previousMonth@2x.png"; sourceTree = "<group>"; };
+		001A7D811BDA84FC007FF1FE /* DSLCalendarDayCallout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DSLCalendarDayCallout.png; sourceTree = "<group>"; };
+		001A7D821BDA84FC007FF1FE /* DSLCalendarDayCallout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDayCallout@2x.png"; sourceTree = "<group>"; };
+		001A7D831BDA84FC007FF1FE /* DSLCalendarDaySelection-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-left.png"; sourceTree = "<group>"; };
+		001A7D841BDA84FC007FF1FE /* DSLCalendarDaySelection-left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-left@2x.png"; sourceTree = "<group>"; };
+		001A7D851BDA84FC007FF1FE /* DSLCalendarDaySelection-middle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-middle.png"; sourceTree = "<group>"; };
+		001A7D861BDA84FC007FF1FE /* DSLCalendarDaySelection-middle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-middle@2x.png"; sourceTree = "<group>"; };
+		001A7D871BDA84FC007FF1FE /* DSLCalendarDaySelection-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-right.png"; sourceTree = "<group>"; };
+		001A7D881BDA84FC007FF1FE /* DSLCalendarDaySelection-right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection-right@2x.png"; sourceTree = "<group>"; };
+		001A7D891BDA84FC007FF1FE /* DSLCalendarDaySelection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DSLCalendarDaySelection.png; sourceTree = "<group>"; };
+		001A7D8A1BDA84FC007FF1FE /* DSLCalendarDaySelection@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DSLCalendarDaySelection@2x.png"; sourceTree = "<group>"; };
+		001A7D8B1BDA84FC007FF1FE /* NSDate+DSLCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+DSLCalendarView.h"; sourceTree = "<group>"; };
+		001A7D8C1BDA84FC007FF1FE /* NSDate+DSLCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+DSLCalendarView.m"; sourceTree = "<group>"; };
+		001A7DA41BDDFB84007FF1FE /* BookingDateSelectionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingDateSelectionController.swift; sourceTree = "<group>"; };
+		001A7DA71BDE2280007FF1FE /* CVAuxiliaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVAuxiliaryView.swift; sourceTree = "<group>"; };
+		001A7DA81BDE2280007FF1FE /* CVCalendarContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarContentViewController.swift; sourceTree = "<group>"; };
+		001A7DA91BDE2280007FF1FE /* CVCalendarDayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarDayView.swift; sourceTree = "<group>"; };
+		001A7DAA1BDE2280007FF1FE /* CVCalendarDayViewControlCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarDayViewControlCoordinator.swift; sourceTree = "<group>"; };
+		001A7DAB1BDE2280007FF1FE /* CVCalendarManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarManager.swift; sourceTree = "<group>"; };
+		001A7DAC1BDE2280007FF1FE /* CVCalendarMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarMenuView.swift; sourceTree = "<group>"; };
+		001A7DAD1BDE2280007FF1FE /* CVCalendarMenuViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarMenuViewDelegate.swift; sourceTree = "<group>"; };
+		001A7DAE1BDE2280007FF1FE /* CVCalendarMonthContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarMonthContentViewController.swift; sourceTree = "<group>"; };
+		001A7DAF1BDE2280007FF1FE /* CVCalendarMonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarMonthView.swift; sourceTree = "<group>"; };
+		001A7DB01BDE2280007FF1FE /* CVCalendarTouchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarTouchController.swift; sourceTree = "<group>"; };
+		001A7DB11BDE2280007FF1FE /* CVCalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarView.swift; sourceTree = "<group>"; };
+		001A7DB21BDE2280007FF1FE /* CVCalendarViewAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAnimator.swift; sourceTree = "<group>"; };
+		001A7DB31BDE2280007FF1FE /* CVCalendarViewAnimatorDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAnimatorDelegate.swift; sourceTree = "<group>"; };
+		001A7DB41BDE2280007FF1FE /* CVCalendarViewAppearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAppearance.swift; sourceTree = "<group>"; };
+		001A7DB51BDE2280007FF1FE /* CVCalendarViewAppearanceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewAppearanceDelegate.swift; sourceTree = "<group>"; };
+		001A7DB61BDE2280007FF1FE /* CVCalendarViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewDelegate.swift; sourceTree = "<group>"; };
+		001A7DB71BDE2280007FF1FE /* CVCalendarViewPresentationMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarViewPresentationMode.swift; sourceTree = "<group>"; };
+		001A7DB81BDE2280007FF1FE /* CVCalendarWeekContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekContentViewController.swift; sourceTree = "<group>"; };
+		001A7DB91BDE2280007FF1FE /* CVCalendarWeekday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekday.swift; sourceTree = "<group>"; };
+		001A7DBA1BDE2280007FF1FE /* CVCalendarWeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVCalendarWeekView.swift; sourceTree = "<group>"; };
+		001A7DBB1BDE2280007FF1FE /* CVDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVDate.swift; sourceTree = "<group>"; };
+		001A7DBC1BDE2280007FF1FE /* CVRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVRange.swift; sourceTree = "<group>"; };
+		001A7DBD1BDE2280007FF1FE /* CVScrollDirection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVScrollDirection.swift; sourceTree = "<group>"; };
+		001A7DBE1BDE2280007FF1FE /* CVSelectionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVSelectionType.swift; sourceTree = "<group>"; };
+		001A7DBF1BDE2280007FF1FE /* CVSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVSet.swift; sourceTree = "<group>"; };
+		001A7DC01BDE2280007FF1FE /* CVShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVShape.swift; sourceTree = "<group>"; };
+		001A7DC11BDE2280007FF1FE /* CVWeekdaySymbolType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CVWeekdaySymbolType.swift; sourceTree = "<group>"; };
+		001A7DDD1BDE736E007FF1FE /* BookingTimeSelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingTimeSelectorController.swift; sourceTree = "<group>"; };
+		001B339C1BF1D9F500D0CCE0 /* PendingBookingRequestListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PendingBookingRequestListController.swift; sourceTree = "<group>"; };
+		001B339E1BF1FF3000D0CCE0 /* ViewPendingCustomerRequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPendingCustomerRequestController.swift; sourceTree = "<group>"; };
+		001B33A01BF214E400D0CCE0 /* RejectBookingRequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RejectBookingRequestController.swift; sourceTree = "<group>"; };
+		00293F671C4D1E26004CD4CA /* BookingDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingDao.swift; sourceTree = "<group>"; };
+		00293F691C4D1E34004CD4CA /* IBookingDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBookingDao.swift; sourceTree = "<group>"; };
+		0035E83C1C493579002752BD /* ServiceDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceDao.swift; sourceTree = "<group>"; };
+		0035E83E1C49358D002752BD /* IServiceDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IServiceDao.swift; sourceTree = "<group>"; };
+		0035E8401C49366B002752BD /* ServiceGroupDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceGroupDao.swift; sourceTree = "<group>"; };
+		0035E8421C49367B002752BD /* IServiceGroupDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IServiceGroupDao.swift; sourceTree = "<group>"; };
+		0035E8441C4A6CA3002752BD /* IServiceImageDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IServiceImageDao.swift; sourceTree = "<group>"; };
+		0035E8461C4A6CED002752BD /* ServiceImageDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceImageDao.swift; sourceTree = "<group>"; };
+		0036A7661B88C7CE001ECD24 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		003A41F51C3D577B00CB268C /* ResponseMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseMessage.swift; sourceTree = "<group>"; };
+		003A41FA1C424D4D00CB268C /* UserServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserServiceTests.swift; sourceTree = "<group>"; };
+		003A42021C42A55000CB268C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = Snapfr/FBSDKShareKit.framework; sourceTree = SOURCE_ROOT; };
+		003A42031C42A55000CB268C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Snapfr/FBSDKCoreKit.framework; sourceTree = SOURCE_ROOT; };
+		003A42041C42A55000CB268C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Snapfr/FBSDKLoginKit.framework; sourceTree = SOURCE_ROOT; };
+		003A421C1C43FA2600CB268C /* ProfileDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileDao.swift; sourceTree = "<group>"; };
+		003A421F1C43FEDF00CB268C /* IProfileDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IProfileDao.swift; sourceTree = "<group>"; };
+		003CA9B01B9AFC7800E7D87D /* login-manual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "login-manual.png"; sourceTree = "<group>"; };
+		003CA9B21B9B1C5400E7D87D /* SearchPhotographerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPhotographerController.swift; sourceTree = "<group>"; };
+		003CA9B61B9C71C300E7D87D /* ProfileMaintenanceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileMaintenanceController.swift; sourceTree = "<group>"; };
+		003F5C901BF9FA8300410872 /* MakeReviewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeReviewController.swift; sourceTree = "<group>"; };
+		003F5C921BF9FB7C00410872 /* star-rating-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-rating-icon.png"; sourceTree = "<group>"; };
+		0046EC131C48D38300948F78 /* ResponseBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseBuilder.swift; sourceTree = "<group>"; };
+		0046EC161C490F5500948F78 /* UserDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDao.swift; sourceTree = "<group>"; };
+		0046EC181C490F6C00948F78 /* IUserDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUserDao.swift; sourceTree = "<group>"; };
+		00615DC41C0179C500A8F281 /* star_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_selected.png; sourceTree = "<group>"; };
+		00615DC51C0179C500A8F281 /* star_none.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star_none.png; sourceTree = "<group>"; };
+		00615DC81C01A38200A8F281 /* ReviewService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewService.swift; sourceTree = "<group>"; };
+		00615DCA1C01A40A00A8F281 /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		00615DCC1C01F78E00A8F281 /* ViewReviewsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewReviewsController.swift; sourceTree = "<group>"; };
+		0068132F1B8DD2C20014A912 /* SignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		006813311B8DD5BF0014A912 /* SignInOtherInfoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInOtherInfoController.swift; sourceTree = "<group>"; };
+		006813341B8DD6940014A912 /* ProfileForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileForm.swift; sourceTree = "<group>"; };
+		0077047A1BC8DF1C007D64F5 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		0077047B1BC8DF1C007D64F5 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		0077047C1BC8DF1C007D64F5 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		007704801BC934E8007D64F5 /* DeleteServiceSamplePhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteServiceSamplePhotoController.swift; sourceTree = "<group>"; };
+		007704821BC95A59007D64F5 /* ModifyServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyServiceController.swift; sourceTree = "<group>"; };
+		007704841BC95CDC007D64F5 /* ParentModifyServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentModifyServiceController.swift; sourceTree = "<group>"; };
+		007704861BCA2E79007D64F5 /* EditServiceGroupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditServiceGroupController.swift; sourceTree = "<group>"; };
+		007704881BCA2F43007D64F5 /* EditParentServiceGroupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditParentServiceGroupController.swift; sourceTree = "<group>"; };
+		0077DBCD1C4F7C1C00840AA4 /* IReviewDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IReviewDao.swift; sourceTree = "<group>"; };
+		0077DBCF1C4F7C2F00840AA4 /* ReviewDao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewDao.swift; sourceTree = "<group>"; };
+		0077DBDD1C4FA2F500840AA4 /* ServiceGroupServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceGroupServiceTests.swift; sourceTree = "<group>"; };
+		0077DBDF1C4FA6FC00840AA4 /* BookingServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingServiceTests.swift; sourceTree = "<group>"; };
+		0077DBE11C4FBE6700840AA4 /* ReviewServiceTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewServiceTests.swift; sourceTree = "<group>"; };
+		007A61191BD36F7500EED249 /* ViewProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProfileController.swift; sourceTree = "<group>"; };
+		007A611B1BD3803200EED249 /* ViewProfileServiceGroupsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProfileServiceGroupsController.swift; sourceTree = "<group>"; };
+		007A611D1BD3AE7500EED249 /* ViewServicesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewServicesController.swift; sourceTree = "<group>"; };
+		007DA5E21C12B7220035EEBA /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		007DA5E41C12B80D0035EEBA /* MessageStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageStatus.swift; sourceTree = "<group>"; };
+		007DA5E71C12BF3C0035EEBA /* SendMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendMessageController.swift; sourceTree = "<group>"; };
+		008B25231BF6E6B5002A6EF0 /* ViewMyPendingRequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMyPendingRequestController.swift; sourceTree = "<group>"; };
+		008B25251BF6F5FF002A6EF0 /* CancelBookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelBookingController.swift; sourceTree = "<group>"; };
+		008B25271BF711A1002A6EF0 /* BookingListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingListController.swift; sourceTree = "<group>"; };
+		008B25291BF71DCF002A6EF0 /* ViewMyBookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewMyBookingController.swift; sourceTree = "<group>"; };
+		008B252B1BF71DF3002A6EF0 /* ViewCustomerBookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCustomerBookingController.swift; sourceTree = "<group>"; };
+		008B252D1BF8B5DE002A6EF0 /* CancelledBookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelledBookingController.swift; sourceTree = "<group>"; };
+		008B252F1BF8BC73002A6EF0 /* RejectedBookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RejectedBookingController.swift; sourceTree = "<group>"; };
+		008B25311BF8C042002A6EF0 /* CompletedBookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedBookingController.swift; sourceTree = "<group>"; };
+		0095DF1F1C534E4300628032 /* CommonUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonUtil.swift; sourceTree = "<group>"; };
+		0095DF211C537F5100628032 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		0095DF231C5755C200628032 /* ResponseStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseStatus.swift; sourceTree = "<group>"; };
+		00A78E7A1B88098C0068A542 /* HttpUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpUtil.swift; sourceTree = "<group>"; };
+		00A78E7D1B880A8B0068A542 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		00A78E7F1B880B060068A542 /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		00A78E831B880B660068A542 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		00A78E851B880B900068A542 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		00B21C2D1BAE6F10006A3E99 /* ServicesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesController.swift; sourceTree = "<group>"; };
+		00B21C2F1BAE9268006A3E99 /* AddServiceGroupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddServiceGroupController.swift; sourceTree = "<group>"; };
+		00B21C311BAE96B1006A3E99 /* ServiceGroupServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceGroupServices.swift; sourceTree = "<group>"; };
+		00B21C331BAE9726006A3E99 /* ServiceGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceGroup.swift; sourceTree = "<group>"; };
+		00B21C351BAE9793006A3E99 /* ServiceGroupForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceGroupForm.swift; sourceTree = "<group>"; };
+		00B287A91B7B720100C36CA2 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		00B5292F1BF35553007E80D6 /* BookingStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingStatus.swift; sourceTree = "<group>"; };
+		00B529311BF3592D007E80D6 /* ModifyBookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModifyBookingController.swift; sourceTree = "<group>"; };
+		00B8D1FA1BB6993200CA3886 /* MaintainServiceGroupController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaintainServiceGroupController.swift; sourceTree = "<group>"; };
+		00B8D1FC1BB6AC2500CA3886 /* AddServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddServiceController.swift; sourceTree = "<group>"; };
+		00B8D1FE1BB6AD9800CA3886 /* ServiceForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceForm.swift; sourceTree = "<group>"; };
+		00B8D2001BB6B34900CA3886 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		00B8D2021BB7D61800CA3886 /* ServiceImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceImage.swift; sourceTree = "<group>"; };
+		00BDFF591BA3EA910084512F /* SWRevealViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		00BDFF5A1BA3EAF90084512F /* Snapfr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Snapfr-Bridging-Header.h"; sourceTree = "<group>"; };
+		00BDFF5B1BA3EAFA0084512F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		00BDFF5E1BA3FAC80084512F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00BDFF601BA475BA0084512F /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		00BDFF621BA477CE0084512F /* EditProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileController.swift; sourceTree = "<group>"; };
+		00BDFF641BA53E400084512F /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Menu.png; sourceTree = "<group>"; };
+		00C7DE7D1BDF52CD0090A2C0 /* BookingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingService.swift; sourceTree = "<group>"; };
+		00C7DE7F1BDF53990090A2C0 /* Booking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		00D828771C034CE0002DA036 /* ReviewsCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReviewsCustomCell.swift; sourceTree = "<group>"; };
+		00D828791C0360D0002DA036 /* star-con-selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "star-con-selected.png"; sourceTree = "<group>"; };
+		00DB8B5B1B7A368400FB8A8C /* Snapfr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapfr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DB8B5F1B7A368400FB8A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DB8B601B7A368400FB8A8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00DB8B621B7A368400FB8A8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00DB8B671B7A368400FB8A8C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		00DB8B6A1B7A368400FB8A8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		00DB8B701B7A368400FB8A8C /* SnapfrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapfrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00DB8B751B7A368400FB8A8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00DB8B761B7A368400FB8A8C /* SnapfrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SnapfrTests.swift; path = SnapfrTests/SnapfrTests.swift; sourceTree = SOURCE_ROOT; };
+		00DB8B801B7A3F9500FB8A8C /* addUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addUser.png; sourceTree = "<group>"; };
+		00DB8B821B7A442400FB8A8C /* fbLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fbLogin.png; sourceTree = "<group>"; };
+		00FF66EB1BBFA86500F41850 /* EditServiceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditServiceController.swift; sourceTree = "<group>"; };
+		00FF66ED1BBFB72200F41850 /* EditServiceParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditServiceParentViewController.swift; sourceTree = "<group>"; };
+		00FF66F11BC006DF00F41850 /* images_blank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images_blank.jpg; sourceTree = "<group>"; };
+		00FF66F31BC0080C00F41850 /* AddServiceImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddServiceImageController.swift; sourceTree = "<group>"; };
+		00FF66F51BC01E0400F41850 /* ViewServiceSamplePhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewServiceSamplePhotoController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00DB8B581B7A368400FB8A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0077047D1BC8DF1C007D64F5 /* FBSDKShareKit.framework in Frameworks */,
+				0077047E1BC8DF1C007D64F5 /* FBSDKCoreKit.framework in Frameworks */,
+				0077047F1BC8DF1C007D64F5 /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DB8B6D1B7A368400FB8A8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003A42051C42A55000CB268C /* FBSDKShareKit.framework in Frameworks */,
+				003A42061C42A55000CB268C /* FBSDKCoreKit.framework in Frameworks */,
+				003A42071C42A55000CB268C /* FBSDKLoginKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		001A7D6A1BDA42A9007FF1FE /* Booking */ = {
+			isa = PBXGroup;
+			children = (
+				001A7D6B1BDA42C7007FF1FE /* BookServiceController.swift */,
+				008B25231BF6E6B5002A6EF0 /* ViewMyPendingRequestController.swift */,
+				001B339C1BF1D9F500D0CCE0 /* PendingBookingRequestListController.swift */,
+				001A7DA41BDDFB84007FF1FE /* BookingDateSelectionController.swift */,
+				001A7DDD1BDE736E007FF1FE /* BookingTimeSelectorController.swift */,
+				001B339E1BF1FF3000D0CCE0 /* ViewPendingCustomerRequestController.swift */,
+				001B33A01BF214E400D0CCE0 /* RejectBookingRequestController.swift */,
+				00B529311BF3592D007E80D6 /* ModifyBookingController.swift */,
+				008B25251BF6F5FF002A6EF0 /* CancelBookingController.swift */,
+				008B252F1BF8BC73002A6EF0 /* RejectedBookingController.swift */,
+				008B25271BF711A1002A6EF0 /* BookingListController.swift */,
+				008B25291BF71DCF002A6EF0 /* ViewMyBookingController.swift */,
+				008B252B1BF71DF3002A6EF0 /* ViewCustomerBookingController.swift */,
+				008B25311BF8C042002A6EF0 /* CompletedBookingController.swift */,
+				008B252D1BF8B5DE002A6EF0 /* CancelledBookingController.swift */,
+				003F5C901BF9FA8300410872 /* MakeReviewController.swift */,
+			);
+			name = Booking;
+			sourceTree = "<group>";
+		};
+		001A7D6D1BDA84FC007FF1FE /* DSLCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				001A7D6E1BDA84FC007FF1FE /* DSLCalendarDayCalloutView.h */,
+				001A7D6F1BDA84FC007FF1FE /* DSLCalendarDayCalloutView.m */,
+				001A7D701BDA84FC007FF1FE /* DSLCalendarDayCalloutView.xib */,
+				001A7D711BDA84FC007FF1FE /* DSLCalendarDayView.h */,
+				001A7D721BDA84FC007FF1FE /* DSLCalendarDayView.m */,
+				001A7D731BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.h */,
+				001A7D741BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.m */,
+				001A7D751BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.xib */,
+				001A7D761BDA84FC007FF1FE /* DSLCalendarMonthView.h */,
+				001A7D771BDA84FC007FF1FE /* DSLCalendarMonthView.m */,
+				001A7D781BDA84FC007FF1FE /* DSLCalendarRange.h */,
+				001A7D791BDA84FC007FF1FE /* DSLCalendarRange.m */,
+				001A7D7A1BDA84FC007FF1FE /* DSLCalendarView.h */,
+				001A7D7B1BDA84FC007FF1FE /* DSLCalendarView.m */,
+				001A7D7C1BDA84FC007FF1FE /* Images */,
+				001A7D8B1BDA84FC007FF1FE /* NSDate+DSLCalendarView.h */,
+				001A7D8C1BDA84FC007FF1FE /* NSDate+DSLCalendarView.m */,
+			);
+			path = DSLCalendarView;
+			sourceTree = "<group>";
+		};
+		001A7D7C1BDA84FC007FF1FE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				001A7D7D1BDA84FC007FF1FE /* DSLCalendar-nextMonth.png */,
+				001A7D7E1BDA84FC007FF1FE /* DSLCalendar-nextMonth@2x.png */,
+				001A7D7F1BDA84FC007FF1FE /* DSLCalendar-previousMonth.png */,
+				001A7D801BDA84FC007FF1FE /* DSLCalendar-previousMonth@2x.png */,
+				001A7D811BDA84FC007FF1FE /* DSLCalendarDayCallout.png */,
+				001A7D821BDA84FC007FF1FE /* DSLCalendarDayCallout@2x.png */,
+				001A7D831BDA84FC007FF1FE /* DSLCalendarDaySelection-left.png */,
+				001A7D841BDA84FC007FF1FE /* DSLCalendarDaySelection-left@2x.png */,
+				001A7D851BDA84FC007FF1FE /* DSLCalendarDaySelection-middle.png */,
+				001A7D861BDA84FC007FF1FE /* DSLCalendarDaySelection-middle@2x.png */,
+				001A7D871BDA84FC007FF1FE /* DSLCalendarDaySelection-right.png */,
+				001A7D881BDA84FC007FF1FE /* DSLCalendarDaySelection-right@2x.png */,
+				001A7D891BDA84FC007FF1FE /* DSLCalendarDaySelection.png */,
+				001A7D8A1BDA84FC007FF1FE /* DSLCalendarDaySelection@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		001A7DA61BDE2280007FF1FE /* CVCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				001A7DA71BDE2280007FF1FE /* CVAuxiliaryView.swift */,
+				001A7DA81BDE2280007FF1FE /* CVCalendarContentViewController.swift */,
+				001A7DA91BDE2280007FF1FE /* CVCalendarDayView.swift */,
+				001A7DAA1BDE2280007FF1FE /* CVCalendarDayViewControlCoordinator.swift */,
+				001A7DAB1BDE2280007FF1FE /* CVCalendarManager.swift */,
+				001A7DAC1BDE2280007FF1FE /* CVCalendarMenuView.swift */,
+				001A7DAD1BDE2280007FF1FE /* CVCalendarMenuViewDelegate.swift */,
+				001A7DAE1BDE2280007FF1FE /* CVCalendarMonthContentViewController.swift */,
+				001A7DAF1BDE2280007FF1FE /* CVCalendarMonthView.swift */,
+				001A7DB01BDE2280007FF1FE /* CVCalendarTouchController.swift */,
+				001A7DB11BDE2280007FF1FE /* CVCalendarView.swift */,
+				001A7DB21BDE2280007FF1FE /* CVCalendarViewAnimator.swift */,
+				001A7DB31BDE2280007FF1FE /* CVCalendarViewAnimatorDelegate.swift */,
+				001A7DB41BDE2280007FF1FE /* CVCalendarViewAppearance.swift */,
+				001A7DB51BDE2280007FF1FE /* CVCalendarViewAppearanceDelegate.swift */,
+				001A7DB61BDE2280007FF1FE /* CVCalendarViewDelegate.swift */,
+				001A7DB71BDE2280007FF1FE /* CVCalendarViewPresentationMode.swift */,
+				001A7DB81BDE2280007FF1FE /* CVCalendarWeekContentViewController.swift */,
+				001A7DB91BDE2280007FF1FE /* CVCalendarWeekday.swift */,
+				001A7DBA1BDE2280007FF1FE /* CVCalendarWeekView.swift */,
+				001A7DBB1BDE2280007FF1FE /* CVDate.swift */,
+				001A7DBC1BDE2280007FF1FE /* CVRange.swift */,
+				001A7DBD1BDE2280007FF1FE /* CVScrollDirection.swift */,
+				001A7DBE1BDE2280007FF1FE /* CVSelectionType.swift */,
+				001A7DBF1BDE2280007FF1FE /* CVSet.swift */,
+				001A7DC01BDE2280007FF1FE /* CVShape.swift */,
+				001A7DC11BDE2280007FF1FE /* CVWeekdaySymbolType.swift */,
+			);
+			path = CVCalendar;
+			sourceTree = "<group>";
+		};
+		003A41F91C424D0E00CB268C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				003A41FA1C424D4D00CB268C /* UserServiceTests.swift */,
+				0077DBDD1C4FA2F500840AA4 /* ServiceGroupServiceTests.swift */,
+				0077DBDF1C4FA6FC00840AA4 /* BookingServiceTests.swift */,
+				0077DBE11C4FBE6700840AA4 /* ReviewServiceTests.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		003A42081C42A55F00CB268C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				003A42021C42A55000CB268C /* FBSDKShareKit.framework */,
+				003A42031C42A55000CB268C /* FBSDKCoreKit.framework */,
+				003A42041C42A55000CB268C /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		003A421B1C43F9FE00CB268C /* DataAcess */ = {
+			isa = PBXGroup;
+			children = (
+				003A421C1C43FA2600CB268C /* ProfileDao.swift */,
+				003A421F1C43FEDF00CB268C /* IProfileDao.swift */,
+				0046EC161C490F5500948F78 /* UserDao.swift */,
+				0046EC181C490F6C00948F78 /* IUserDao.swift */,
+				0035E83C1C493579002752BD /* ServiceDao.swift */,
+				0035E83E1C49358D002752BD /* IServiceDao.swift */,
+				0035E8401C49366B002752BD /* ServiceGroupDao.swift */,
+				0035E8421C49367B002752BD /* IServiceGroupDao.swift */,
+				0035E8441C4A6CA3002752BD /* IServiceImageDao.swift */,
+				0035E8461C4A6CED002752BD /* ServiceImageDao.swift */,
+				00293F671C4D1E26004CD4CA /* BookingDao.swift */,
+				00293F691C4D1E34004CD4CA /* IBookingDao.swift */,
+				0077DBCD1C4F7C1C00840AA4 /* IReviewDao.swift */,
+				0077DBCF1C4F7C2F00840AA4 /* ReviewDao.swift */,
+			);
+			name = DataAcess;
+			sourceTree = "<group>";
+		};
+		006813331B8DD67A0014A912 /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				006813341B8DD6940014A912 /* ProfileForm.swift */,
+				00B21C351BAE9793006A3E99 /* ServiceGroupForm.swift */,
+				00B8D1FE1BB6AD9800CA3886 /* ServiceForm.swift */,
+			);
+			name = Forms;
+			sourceTree = "<group>";
+		};
+		0068133C1B8DEE240014A912 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				001A7DA61BDE2280007FF1FE /* CVCalendar */,
+				001A7D6D1BDA84FC007FF1FE /* DSLCalendarView */,
+				0077047A1BC8DF1C007D64F5 /* FBSDKShareKit.framework */,
+				0077047B1BC8DF1C007D64F5 /* FBSDKCoreKit.framework */,
+				0077047C1BC8DF1C007D64F5 /* FBSDKLoginKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0077048A1BCA2FBC007D64F5 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0036A7661B88C7CE001ECD24 /* LoginController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		0077048B1BCA2FD6007D64F5 /* Signin */ = {
+			isa = PBXGroup;
+			children = (
+				0068132F1B8DD2C20014A912 /* SignInController.swift */,
+				006813311B8DD5BF0014A912 /* SignInOtherInfoController.swift */,
+			);
+			name = Signin;
+			sourceTree = "<group>";
+		};
+		0077048C1BCA3006007D64F5 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				003CA9B61B9C71C300E7D87D /* ProfileMaintenanceController.swift */,
+				00615DCC1C01F78E00A8F281 /* ViewReviewsController.swift */,
+				003CA9B21B9B1C5400E7D87D /* SearchPhotographerController.swift */,
+				000C04A81BA96C030068DF5E /* EditAvatar.swift */,
+				00BDFF621BA477CE0084512F /* EditProfileController.swift */,
+				007A61191BD36F7500EED249 /* ViewProfileController.swift */,
+				007A611B1BD3803200EED249 /* ViewProfileServiceGroupsController.swift */,
+				007A611D1BD3AE7500EED249 /* ViewServicesController.swift */,
+				00D828771C034CE0002DA036 /* ReviewsCustomCell.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		0077048D1BCA302C007D64F5 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				007704861BCA2E79007D64F5 /* EditServiceGroupController.swift */,
+				00FF66F51BC01E0400F41850 /* ViewServiceSamplePhotoController.swift */,
+				00FF66EB1BBFA86500F41850 /* EditServiceController.swift */,
+				00B21C2D1BAE6F10006A3E99 /* ServicesController.swift */,
+				00B8D1FA1BB6993200CA3886 /* MaintainServiceGroupController.swift */,
+				00FF66ED1BBFB72200F41850 /* EditServiceParentViewController.swift */,
+				00FF66F31BC0080C00F41850 /* AddServiceImageController.swift */,
+				007704881BCA2F43007D64F5 /* EditParentServiceGroupController.swift */,
+				00B21C2F1BAE9268006A3E99 /* AddServiceGroupController.swift */,
+				007704821BC95A59007D64F5 /* ModifyServiceController.swift */,
+				007704841BC95CDC007D64F5 /* ParentModifyServiceController.swift */,
+				00B8D1FC1BB6AC2500CA3886 /* AddServiceController.swift */,
+				007704801BC934E8007D64F5 /* DeleteServiceSamplePhotoController.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		007DA5E61C12BF230035EEBA /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				007DA5E71C12BF3C0035EEBA /* SendMessageController.swift */,
+			);
+			name = Messaging;
+			sourceTree = "<group>";
+		};
+		00A78E791B88094A0068A542 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				00B5292F1BF35553007E80D6 /* BookingStatus.swift */,
+				007DA5E41C12B80D0035EEBA /* MessageStatus.swift */,
+				00A78E7A1B88098C0068A542 /* HttpUtil.swift */,
+				00A78E7D1B880A8B0068A542 /* Constants.swift */,
+				0046EC131C48D38300948F78 /* ResponseBuilder.swift */,
+				0095DF1F1C534E4300628032 /* CommonUtil.swift */,
+				0095DF211C537F5100628032 /* UIImageView.swift */,
+				0095DF231C5755C200628032 /* ResponseStatus.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		00A78E7C1B880A600068A542 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				00A78E7F1B880B060068A542 /* UserService.swift */,
+				00B21C311BAE96B1006A3E99 /* ServiceGroupServices.swift */,
+				00C7DE7D1BDF52CD0090A2C0 /* BookingService.swift */,
+				00615DC81C01A38200A8F281 /* ReviewService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		00A78E811B880B170068A542 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				007DA5E61C12BF230035EEBA /* Messaging */,
+				001A7D6A1BDA42A9007FF1FE /* Booking */,
+				0077048D1BCA302C007D64F5 /* Service */,
+				0077048C1BCA3006007D64F5 /* User */,
+				0077048B1BCA2FD6007D64F5 /* Signin */,
+				0077048A1BCA2FBC007D64F5 /* Login */,
+				00DB8B621B7A368400FB8A8C /* ViewController.swift */,
+				00DB8B601B7A368400FB8A8C /* AppDelegate.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		00A78E821B880B380068A542 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				00A78E831B880B660068A542 /* Profile.swift */,
+				007DA5E21C12B7220035EEBA /* Message.swift */,
+				003A41F51C3D577B00CB268C /* ResponseMessage.swift */,
+				00A78E851B880B900068A542 /* User.swift */,
+				00B21C331BAE9726006A3E99 /* ServiceGroup.swift */,
+				00B8D2001BB6B34900CA3886 /* Service.swift */,
+				00B8D2021BB7D61800CA3886 /* ServiceImage.swift */,
+				00C7DE7F1BDF53990090A2C0 /* Booking.swift */,
+				00615DCA1C01A40A00A8F281 /* Review.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		00DB8B521B7A368400FB8A8C = {
+			isa = PBXGroup;
+			children = (
+				00DB8B5D1B7A368400FB8A8C /* Snapfr */,
+				00DB8B731B7A368400FB8A8C /* SnapfrTests */,
+				00DB8B5C1B7A368400FB8A8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00DB8B5C1B7A368400FB8A8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00DB8B5B1B7A368400FB8A8C /* Snapfr.app */,
+				00DB8B701B7A368400FB8A8C /* SnapfrTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00DB8B5D1B7A368400FB8A8C /* Snapfr */ = {
+			isa = PBXGroup;
+			children = (
+				003A421B1C43F9FE00CB268C /* DataAcess */,
+				0068133C1B8DEE240014A912 /* Frameworks */,
+				006813331B8DD67A0014A912 /* Forms */,
+				00A78E821B880B380068A542 /* Model */,
+				00A78E811B880B170068A542 /* Controller */,
+				00A78E7C1B880A600068A542 /* Services */,
+				00A78E791B88094A0068A542 /* Common */,
+				00DB8B671B7A368400FB8A8C /* Images.xcassets */,
+				00DB8B691B7A368400FB8A8C /* LaunchScreen.xib */,
+				00BDFF5D1BA3FAC80084512F /* Main.storyboard */,
+				00DB8B5E1B7A368400FB8A8C /* Supporting Files */,
+			);
+			path = Snapfr;
+			sourceTree = "<group>";
+		};
+		00DB8B5E1B7A368400FB8A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00BDFF5B1BA3EAFA0084512F /* SWRevealViewController.m */,
+				00615DC41C0179C500A8F281 /* star_selected.png */,
+				00D828791C0360D0002DA036 /* star-con-selected.png */,
+				00615DC51C0179C500A8F281 /* star_none.png */,
+				00FF66F11BC006DF00F41850 /* images_blank.jpg */,
+				003F5C921BF9FB7C00410872 /* star-rating-icon.png */,
+				00BDFF641BA53E400084512F /* Menu.png */,
+				00BDFF591BA3EA910084512F /* SWRevealViewController.h */,
+				00DB8B801B7A3F9500FB8A8C /* addUser.png */,
+				00BDFF601BA475BA0084512F /* edit.png */,
+				003CA9B01B9AFC7800E7D87D /* login-manual.png */,
+				00DB8B821B7A442400FB8A8C /* fbLogin.png */,
+				00B287A91B7B720100C36CA2 /* login.png */,
+				00DB8B5F1B7A368400FB8A8C /* Info.plist */,
+				00BDFF5A1BA3EAF90084512F /* Snapfr-Bridging-Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		00DB8B731B7A368400FB8A8C /* SnapfrTests */ = {
+			isa = PBXGroup;
+			children = (
+				003A42081C42A55F00CB268C /* Frameworks */,
+				003A41F91C424D0E00CB268C /* Services */,
+				00DB8B761B7A368400FB8A8C /* SnapfrTests.swift */,
+				00DB8B741B7A368400FB8A8C /* Supporting Files */,
+			);
+			name = SnapfrTests;
+			path = "/Applications/Xcode.app/Contents/Developer/../../../../Volumes/Macintosh HD 2/MyIOSGames/Snapfr/SnapfrTests";
+			sourceTree = "<absolute>";
+		};
+		00DB8B741B7A368400FB8A8C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00DB8B751B7A368400FB8A8C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00DB8B5A1B7A368400FB8A8C /* Snapfr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DB8B7A1B7A368400FB8A8C /* Build configuration list for PBXNativeTarget "Snapfr" */;
+			buildPhases = (
+				00DB8B571B7A368400FB8A8C /* Sources */,
+				00DB8B581B7A368400FB8A8C /* Frameworks */,
+				00DB8B591B7A368400FB8A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snapfr;
+			productName = Snapfr;
+			productReference = 00DB8B5B1B7A368400FB8A8C /* Snapfr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		00DB8B6F1B7A368400FB8A8C /* SnapfrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00DB8B7D1B7A368400FB8A8C /* Build configuration list for PBXNativeTarget "SnapfrTests" */;
+			buildPhases = (
+				00DB8B6C1B7A368400FB8A8C /* Sources */,
+				00DB8B6D1B7A368400FB8A8C /* Frameworks */,
+				00DB8B6E1B7A368400FB8A8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00DB8B721B7A368400FB8A8C /* PBXTargetDependency */,
+			);
+			name = SnapfrTests;
+			productName = SnapfrTests;
+			productReference = 00DB8B701B7A368400FB8A8C /* SnapfrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00DB8B531B7A368400FB8A8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Rommel Suarez";
+				TargetAttributes = {
+					00DB8B5A1B7A368400FB8A8C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = CV5N99FP27;
+					};
+					00DB8B6F1B7A368400FB8A8C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 00DB8B5A1B7A368400FB8A8C;
+					};
+				};
+			};
+			buildConfigurationList = 00DB8B561B7A368400FB8A8C /* Build configuration list for PBXProject "Snapfr" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00DB8B521B7A368400FB8A8C;
+			productRefGroup = 00DB8B5C1B7A368400FB8A8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00DB8B5A1B7A368400FB8A8C /* Snapfr */,
+				00DB8B6F1B7A368400FB8A8C /* SnapfrTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00DB8B591B7A368400FB8A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				001A7D911BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.xib in Resources */,
+				00BDFF651BA53E400084512F /* Menu.png in Resources */,
+				001A7D961BDA84FC007FF1FE /* DSLCalendar-nextMonth@2x.png in Resources */,
+				001A7D9E1BDA84FC007FF1FE /* DSLCalendarDaySelection-middle@2x.png in Resources */,
+				001A7DA11BDA84FC007FF1FE /* DSLCalendarDaySelection.png in Resources */,
+				00D8287A1C0360D0002DA036 /* star-con-selected.png in Resources */,
+				00BDFF5F1BA3FAC80084512F /* Main.storyboard in Resources */,
+				001A7DA21BDA84FC007FF1FE /* DSLCalendarDaySelection@2x.png in Resources */,
+				001A7D981BDA84FC007FF1FE /* DSLCalendar-previousMonth@2x.png in Resources */,
+				003F5C931BF9FB7C00410872 /* star-rating-icon.png in Resources */,
+				001A7D9C1BDA84FC007FF1FE /* DSLCalendarDaySelection-left@2x.png in Resources */,
+				00BDFF611BA475BA0084512F /* edit.png in Resources */,
+				00DB8B831B7A442400FB8A8C /* fbLogin.png in Resources */,
+				00FF66F21BC006DF00F41850 /* images_blank.jpg in Resources */,
+				00DB8B811B7A3F9500FB8A8C /* addUser.png in Resources */,
+				00615DC61C0179C500A8F281 /* star_selected.png in Resources */,
+				001A7D9F1BDA84FC007FF1FE /* DSLCalendarDaySelection-right.png in Resources */,
+				001A7D951BDA84FC007FF1FE /* DSLCalendar-nextMonth.png in Resources */,
+				001A7D9A1BDA84FC007FF1FE /* DSLCalendarDayCallout@2x.png in Resources */,
+				001A7D991BDA84FC007FF1FE /* DSLCalendarDayCallout.png in Resources */,
+				001A7D9D1BDA84FC007FF1FE /* DSLCalendarDaySelection-middle.png in Resources */,
+				00B287AA1B7B720100C36CA2 /* login.png in Resources */,
+				001A7D9B1BDA84FC007FF1FE /* DSLCalendarDaySelection-left.png in Resources */,
+				001A7D971BDA84FC007FF1FE /* DSLCalendar-previousMonth.png in Resources */,
+				00DB8B6B1B7A368400FB8A8C /* LaunchScreen.xib in Resources */,
+				003CA9B11B9AFC7800E7D87D /* login-manual.png in Resources */,
+				001A7DA01BDA84FC007FF1FE /* DSLCalendarDaySelection-right@2x.png in Resources */,
+				00615DC71C0179C500A8F281 /* star_none.png in Resources */,
+				001A7D8E1BDA84FC007FF1FE /* DSLCalendarDayCalloutView.xib in Resources */,
+				00DB8B681B7A368400FB8A8C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DB8B6E1B7A368400FB8A8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00DB8B571B7A368400FB8A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				007A611E1BD3AE7500EED249 /* ViewServicesController.swift in Sources */,
+				001A7DDC1BDE2280007FF1FE /* CVWeekdaySymbolType.swift in Sources */,
+				00293F681C4D1E26004CD4CA /* BookingDao.swift in Sources */,
+				001A7D8D1BDA84FC007FF1FE /* DSLCalendarDayCalloutView.m in Sources */,
+				0046EC171C490F5500948F78 /* UserDao.swift in Sources */,
+				001A7D931BDA84FC007FF1FE /* DSLCalendarRange.m in Sources */,
+				007DA5E31C12B7220035EEBA /* Message.swift in Sources */,
+				001A7DCF1BDE2280007FF1FE /* CVCalendarViewAppearance.swift in Sources */,
+				00B21C341BAE9726006A3E99 /* ServiceGroup.swift in Sources */,
+				001A7DC71BDE2280007FF1FE /* CVCalendarMenuView.swift in Sources */,
+				00615DC91C01A38200A8F281 /* ReviewService.swift in Sources */,
+				001A7DD71BDE2280007FF1FE /* CVRange.swift in Sources */,
+				008B252C1BF71DF3002A6EF0 /* ViewCustomerBookingController.swift in Sources */,
+				0035E83F1C49358D002752BD /* IServiceDao.swift in Sources */,
+				00B8D2011BB6B34900CA3886 /* Service.swift in Sources */,
+				00B8D1FF1BB6AD9800CA3886 /* ServiceForm.swift in Sources */,
+				001A7DD91BDE2280007FF1FE /* CVSelectionType.swift in Sources */,
+				001A7DDE1BDE736E007FF1FE /* BookingTimeSelectorController.swift in Sources */,
+				0046EC191C490F6C00948F78 /* IUserDao.swift in Sources */,
+				001B339F1BF1FF3000D0CCE0 /* ViewPendingCustomerRequestController.swift in Sources */,
+				00FF66F41BC0080C00F41850 /* AddServiceImageController.swift in Sources */,
+				008B25241BF6E6B5002A6EF0 /* ViewMyPendingRequestController.swift in Sources */,
+				001A7DD41BDE2280007FF1FE /* CVCalendarWeekday.swift in Sources */,
+				00D828781C034CE0002DA036 /* ReviewsCustomCell.swift in Sources */,
+				00B21C361BAE9793006A3E99 /* ServiceGroupForm.swift in Sources */,
+				0046EC141C48D38300948F78 /* ResponseBuilder.swift in Sources */,
+				00FF66EE1BBFB72200F41850 /* EditServiceParentViewController.swift in Sources */,
+				00A78E801B880B060068A542 /* UserService.swift in Sources */,
+				00B21C2E1BAE6F10006A3E99 /* ServicesController.swift in Sources */,
+				003A41F61C3D577B00CB268C /* ResponseMessage.swift in Sources */,
+				007DA5E81C12BF3C0035EEBA /* SendMessageController.swift in Sources */,
+				001A7DD01BDE2280007FF1FE /* CVCalendarViewAppearanceDelegate.swift in Sources */,
+				0095DF221C537F5100628032 /* UIImageView.swift in Sources */,
+				001B339D1BF1D9F500D0CCE0 /* PendingBookingRequestListController.swift in Sources */,
+				00B529321BF3592D007E80D6 /* ModifyBookingController.swift in Sources */,
+				00293F6A1C4D1E34004CD4CA /* IBookingDao.swift in Sources */,
+				000C04A91BA96C030068DF5E /* EditAvatar.swift in Sources */,
+				001A7DDB1BDE2280007FF1FE /* CVShape.swift in Sources */,
+				001A7D921BDA84FC007FF1FE /* DSLCalendarMonthView.m in Sources */,
+				001A7DA31BDA84FC007FF1FE /* NSDate+DSLCalendarView.m in Sources */,
+				001A7DDA1BDE2280007FF1FE /* CVSet.swift in Sources */,
+				0035E8411C49366B002752BD /* ServiceGroupDao.swift in Sources */,
+				00C7DE7E1BDF52CD0090A2C0 /* BookingService.swift in Sources */,
+				001A7DD31BDE2280007FF1FE /* CVCalendarWeekContentViewController.swift in Sources */,
+				0095DF201C534E4300628032 /* CommonUtil.swift in Sources */,
+				001B33A11BF214E400D0CCE0 /* RejectBookingRequestController.swift in Sources */,
+				001A7D901BDA84FC007FF1FE /* DSLCalendarMonthSelectorView.m in Sources */,
+				00BDFF631BA477CE0084512F /* EditProfileController.swift in Sources */,
+				00B8D1FB1BB6993200CA3886 /* MaintainServiceGroupController.swift in Sources */,
+				00615DCD1C01F78E00A8F281 /* ViewReviewsController.swift in Sources */,
+				001A7DCB1BDE2280007FF1FE /* CVCalendarTouchController.swift in Sources */,
+				00A78E841B880B660068A542 /* Profile.swift in Sources */,
+				00C7DE801BDF53990090A2C0 /* Booking.swift in Sources */,
+				007704831BC95A59007D64F5 /* ModifyServiceController.swift in Sources */,
+				007A611A1BD36F7500EED249 /* ViewProfileController.swift in Sources */,
+				00BDFF5C1BA3EAFA0084512F /* SWRevealViewController.m in Sources */,
+				006813321B8DD5BF0014A912 /* SignInOtherInfoController.swift in Sources */,
+				00615DCB1C01A40A00A8F281 /* Review.swift in Sources */,
+				001A7DCA1BDE2280007FF1FE /* CVCalendarMonthView.swift in Sources */,
+				007704891BCA2F43007D64F5 /* EditParentServiceGroupController.swift in Sources */,
+				001A7D941BDA84FC007FF1FE /* DSLCalendarView.m in Sources */,
+				001A7DCC1BDE2280007FF1FE /* CVCalendarView.swift in Sources */,
+				007704851BC95CDC007D64F5 /* ParentModifyServiceController.swift in Sources */,
+				006813351B8DD6940014A912 /* ProfileForm.swift in Sources */,
+				001A7DD11BDE2280007FF1FE /* CVCalendarViewDelegate.swift in Sources */,
+				001A7DD81BDE2280007FF1FE /* CVScrollDirection.swift in Sources */,
+				001A7DC81BDE2280007FF1FE /* CVCalendarMenuViewDelegate.swift in Sources */,
+				00B8D1FD1BB6AC2500CA3886 /* AddServiceController.swift in Sources */,
+				007DA5E51C12B80D0035EEBA /* MessageStatus.swift in Sources */,
+				001A7DD51BDE2280007FF1FE /* CVCalendarWeekView.swift in Sources */,
+				001A7DC21BDE2280007FF1FE /* CVAuxiliaryView.swift in Sources */,
+				00DB8B631B7A368400FB8A8C /* ViewController.swift in Sources */,
+				001A7D6C1BDA42C7007FF1FE /* BookServiceController.swift in Sources */,
+				001A7DC91BDE2280007FF1FE /* CVCalendarMonthContentViewController.swift in Sources */,
+				006813301B8DD2C20014A912 /* SignInController.swift in Sources */,
+				008B25261BF6F5FF002A6EF0 /* CancelBookingController.swift in Sources */,
+				001A7DC41BDE2280007FF1FE /* CVCalendarDayView.swift in Sources */,
+				008B252E1BF8B5DE002A6EF0 /* CancelledBookingController.swift in Sources */,
+				0035E8431C49367B002752BD /* IServiceGroupDao.swift in Sources */,
+				001A7DCE1BDE2280007FF1FE /* CVCalendarViewAnimatorDelegate.swift in Sources */,
+				001A7DC31BDE2280007FF1FE /* CVCalendarContentViewController.swift in Sources */,
+				00B8D2031BB7D61800CA3886 /* ServiceImage.swift in Sources */,
+				00FF66F61BC01E0400F41850 /* ViewServiceSamplePhotoController.swift in Sources */,
+				001A7DD61BDE2280007FF1FE /* CVDate.swift in Sources */,
+				0077DBCE1C4F7C1C00840AA4 /* IReviewDao.swift in Sources */,
+				007704871BCA2E79007D64F5 /* EditServiceGroupController.swift in Sources */,
+				008B252A1BF71DCF002A6EF0 /* ViewMyBookingController.swift in Sources */,
+				003A42201C43FEDF00CB268C /* IProfileDao.swift in Sources */,
+				0035E83D1C493579002752BD /* ServiceDao.swift in Sources */,
+				003CA9B31B9B1C5400E7D87D /* SearchPhotographerController.swift in Sources */,
+				00B529301BF35553007E80D6 /* BookingStatus.swift in Sources */,
+				00DB8B611B7A368400FB8A8C /* AppDelegate.swift in Sources */,
+				003A421D1C43FA2600CB268C /* ProfileDao.swift in Sources */,
+				008B25301BF8BC73002A6EF0 /* RejectedBookingController.swift in Sources */,
+				001A7DCD1BDE2280007FF1FE /* CVCalendarViewAnimator.swift in Sources */,
+				001A7DC61BDE2280007FF1FE /* CVCalendarManager.swift in Sources */,
+				00B21C301BAE9268006A3E99 /* AddServiceGroupController.swift in Sources */,
+				008B25281BF711A1002A6EF0 /* BookingListController.swift in Sources */,
+				007704811BC934E8007D64F5 /* DeleteServiceSamplePhotoController.swift in Sources */,
+				0095DF241C5755C200628032 /* ResponseStatus.swift in Sources */,
+				003F5C911BF9FA8300410872 /* MakeReviewController.swift in Sources */,
+				001A7DA51BDDFB84007FF1FE /* BookingDateSelectionController.swift in Sources */,
+				001A7DD21BDE2280007FF1FE /* CVCalendarViewPresentationMode.swift in Sources */,
+				001A7DC51BDE2280007FF1FE /* CVCalendarDayViewControlCoordinator.swift in Sources */,
+				007A611C1BD3803200EED249 /* ViewProfileServiceGroupsController.swift in Sources */,
+				0077DBD01C4F7C2F00840AA4 /* ReviewDao.swift in Sources */,
+				0035E8451C4A6CA3002752BD /* IServiceImageDao.swift in Sources */,
+				00A78E7B1B88098C0068A542 /* HttpUtil.swift in Sources */,
+				003CA9B71B9C71C300E7D87D /* ProfileMaintenanceController.swift in Sources */,
+				0035E8471C4A6CED002752BD /* ServiceImageDao.swift in Sources */,
+				0036A7671B88C7CE001ECD24 /* LoginController.swift in Sources */,
+				001A7D8F1BDA84FC007FF1FE /* DSLCalendarDayView.m in Sources */,
+				00A78E7E1B880A8B0068A542 /* Constants.swift in Sources */,
+				00FF66EC1BBFA86500F41850 /* EditServiceController.swift in Sources */,
+				008B25321BF8C042002A6EF0 /* CompletedBookingController.swift in Sources */,
+				00A78E861B880B900068A542 /* User.swift in Sources */,
+				00B21C321BAE96B1006A3E99 /* ServiceGroupServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		00DB8B6C1B7A368400FB8A8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003A42181C43B05B00CB268C /* BookingService.swift in Sources */,
+				0077DBDA1C4FA0AE00840AA4 /* ReviewDao.swift in Sources */,
+				003A42151C43AFEF00CB268C /* Booking.swift in Sources */,
+				0046EC1B1C49130D00948F78 /* UserDao.swift in Sources */,
+				003A42131C43AFE700CB268C /* Service.swift in Sources */,
+				003A42211C43FEDF00CB268C /* IProfileDao.swift in Sources */,
+				003A420C1C43AFAB00CB268C /* MessageStatus.swift in Sources */,
+				003A420A1C42A60700CB268C /* Profile.swift in Sources */,
+				003A42011C42A4B900CB268C /* ProfileForm.swift in Sources */,
+				0077DBD71C4FA0A300840AA4 /* BookingDao.swift in Sources */,
+				003A420F1C43AFB700CB268C /* ResponseMessage.swift in Sources */,
+				0077DBD21C4FA08900840AA4 /* ServiceDao.swift in Sources */,
+				003A42171C43B05700CB268C /* ReviewService.swift in Sources */,
+				0077DBD91C4FA0AA00840AA4 /* IReviewDao.swift in Sources */,
+				003A420B1C43AFA700CB268C /* BookingStatus.swift in Sources */,
+				003A42141C43AFEB00CB268C /* ServiceImage.swift in Sources */,
+				0077DBD41C4FA09800840AA4 /* IServiceGroupDao.swift in Sources */,
+				0077DBD11C4FA08300840AA4 /* IServiceDao.swift in Sources */,
+				003A42101C43AFDB00CB268C /* Message.swift in Sources */,
+				0077DBD51C4FA09C00840AA4 /* IServiceImageDao.swift in Sources */,
+				0077DBE01C4FA6FC00840AA4 /* BookingServiceTests.swift in Sources */,
+				0095DF251C576A2B00628032 /* ResponseStatus.swift in Sources */,
+				0077DBE21C4FBE6700840AA4 /* ReviewServiceTests.swift in Sources */,
+				0077DBD61C4FA0A000840AA4 /* ServiceImageDao.swift in Sources */,
+				003A41FB1C424D4D00CB268C /* UserServiceTests.swift in Sources */,
+				003A42111C43AFDF00CB268C /* User.swift in Sources */,
+				003A421E1C43FA2600CB268C /* ProfileDao.swift in Sources */,
+				0046EC1A1C49130900948F78 /* IUserDao.swift in Sources */,
+				003A421A1C43B06300CB268C /* UserService.swift in Sources */,
+				00DB8B771B7A368400FB8A8C /* SnapfrTests.swift in Sources */,
+				0077DBD81C4FA0A700840AA4 /* IBookingDao.swift in Sources */,
+				003A42161C43AFF200CB268C /* Review.swift in Sources */,
+				003A420D1C43AFAE00CB268C /* HttpUtil.swift in Sources */,
+				003A420E1C43AFB300CB268C /* Constants.swift in Sources */,
+				0077DBDE1C4FA2F500840AA4 /* ServiceGroupServiceTests.swift in Sources */,
+				003A42121C43AFE300CB268C /* ServiceGroup.swift in Sources */,
+				0046EC151C48D7E500948F78 /* ResponseBuilder.swift in Sources */,
+				0077DBD31C4FA09400840AA4 /* ServiceGroupDao.swift in Sources */,
+				003A42191C43B05E00CB268C /* ServiceGroupServices.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00DB8B721B7A368400FB8A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 00DB8B5A1B7A368400FB8A8C /* Snapfr */;
+			targetProxy = 00DB8B711B7A368400FB8A8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		00BDFF5D1BA3FAC80084512F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00BDFF5E1BA3FAC80084512F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00DB8B691B7A368400FB8A8C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00DB8B6A1B7A368400FB8A8C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00DB8B781B7A368400FB8A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00DB8B791B7A368400FB8A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00DB8B7B1B7A368400FB8A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Snapfr",
+					"$(PROJECT_DIR)/Snapfr/FacebookSDKs-iOS-20151007",
+				);
+				INFOPLIST_FILE = Snapfr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.snapfr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Snapfr/Snapfr-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00DB8B7C1B7A368400FB8A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Snapfr",
+					"$(PROJECT_DIR)/Snapfr/FacebookSDKs-iOS-20151007",
+				);
+				INFOPLIST_FILE = Snapfr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.snapfr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Snapfr/Snapfr-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		00DB8B7E1B7A368400FB8A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Snapfr",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnapfrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.snapfr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapfr.app/Snapfr";
+			};
+			name = Debug;
+		};
+		00DB8B7F1B7A368400FB8A8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)/Snapfr",
+				);
+				INFOPLIST_FILE = SnapfrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.snapfr.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snapfr.app/Snapfr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00DB8B561B7A368400FB8A8C /* Build configuration list for PBXProject "Snapfr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DB8B781B7A368400FB8A8C /* Debug */,
+				00DB8B791B7A368400FB8A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DB8B7A1B7A368400FB8A8C /* Build configuration list for PBXNativeTarget "Snapfr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DB8B7B1B7A368400FB8A8C /* Debug */,
+				00DB8B7C1B7A368400FB8A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00DB8B7D1B7A368400FB8A8C /* Build configuration list for PBXNativeTarget "SnapfrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00DB8B7E1B7A368400FB8A8C /* Debug */,
+				00DB8B7F1B7A368400FB8A8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00DB8B531B7A368400FB8A8C /* Project object */;
+}
